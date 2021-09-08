@@ -5,6 +5,9 @@
     &__img{
         width: 28px;
     }
+    &__sombra{
+        background-color: $bg-info;
+    }
     &__iconos{
         display:list-item;
         list-style: square inside url(../imagenes/muffin.svg);

@@ -27,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active iconos" aria-current="page" href="catering.html">Catering</a>
+                            <a class="nav-link iconos" aria-current="page" href="catering.html">Catering</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link iconos" href="cakes.html">Cakes</a>
@@ -36,7 +36,7 @@
                             <a class="nav-link iconos" href="backingPallet.html">Backing Pallet</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="contacto.html">
+                            <a class="nav-link header__sombra" aria-current="page" href="contacto.html">
                                 <img src="imagenes/iconoContacto.svg" class="header__img" alt="contacto" title="Contacto">
                             </a>
                         </li>
@@ -61,31 +61,23 @@
     </header>
     <main class="body__main">
         <div class="justify-content-md-center">
-            <div class=" col-md-auto col-lg-3 col-md-6 col-sm-12">
-                <div class="video">
-                    <video autoplay controls>
-                        <source src="media/video1.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+            <form>
+                <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo</label>
+                <input type="email" class="form-control" placeholder="miemail@gmail.com"id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Recuerda no mostrar tus contraseñas a nadie.</div>
                 </div>
-            </div>
+                <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" placeholder="ABC123#." id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Recordar</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
-        <form>
-            <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Correo</label>
-            <input type="email" class="form-control" placeholder="miemail@gmail.com"id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">Recuerda no mostrar tus contraseñas a nadie.</div>
-            </div>
-            <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" placeholder="ABC123#." id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Recordar</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
         <section>
             <form action="envío.php" method="POST" id="contacto">
                 <div class="datosPersonales">

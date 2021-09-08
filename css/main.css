@@ -15,6 +15,7 @@
     grid-area: main;
     padding-left: 3%;
     padding-right: 3%;
+    margin: 2%;
     background-color: #ebf0a7; }
   .body__footer {
     grid-area: footer; }
@@ -170,7 +171,8 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(1, auto);
-  grid-template-areas: "h1 iframe iframe iframe nota"; }
+  grid-template-areas: "h1 iframe iframe iframe nota";
+  margin: 2%; }
   .ubicacion h1 {
     flex-grow: 1;
     grid-area: h1; }
@@ -199,6 +201,8 @@
   background-color: #f5db5d; }
   .header__img {
     width: 28px; }
+  .header__sombra {
+    background-color: darkslategray; }
   .header__iconos {
     display: list-item;
     list-style: square inside url(../imagenes/muffin.svg); }

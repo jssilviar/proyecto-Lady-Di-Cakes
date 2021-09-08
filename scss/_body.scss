@@ -11,6 +11,7 @@
         grid-area: main;
         padding-left: 3%;
         padding-right: 3%;
+        margin: 2%;
         background-color: $bg-fondo;
     }
     &__footer{
@@ -194,6 +195,7 @@ $fonts: (
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(1, auto);
         grid-template-areas: "h1 iframe iframe iframe nota";
+        margin: 2%;
         h1{
             flex-grow: 1;
             grid-area: h1;
