@@ -192,9 +192,7 @@
       transition: transform 2s; }
 
 .video {
-  width: 200px;
-  display: flex;
-  transform: translate(158%, 0.5%); }
+  margin-left: 15%; }
 
 .header {
   width: 100%;
