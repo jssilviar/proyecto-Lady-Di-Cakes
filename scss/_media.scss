@@ -42,9 +42,16 @@
         grid-template-areas:"col" "col" "col" "col" "col" "col";
     }
     .footer{
-        grid-template-columns:1fr 1fr;
-        grid-template-rows: repeat(3, auto);
-        grid-template-areas: "contacto info1" "iconos iconos" "copyright copyright" ;
+        grid-template-columns:1fr;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: "contacto" "info1" "iconos" "copyright";
+        &__contacto{
+            font-size: 46px;
+            justify-content: center;
+        }
+        &__datos{
+            text-align: center;
+        }
     }
     .ubicacion{
         grid-template-columns: repeat(1, 1fr);

@@ -278,7 +278,7 @@
   .footer__copyright {
     text-align: center;
     grid-area: copyright;
-    background-color: antiquewhite; }
+    background-color: #ebf0a7; }
 
 @media only screen and (max-width: 1024px) {
   .contenedor li a {
@@ -315,9 +315,14 @@
     grid-template-rows: repeat(6, auto);
     grid-template-areas: "col" "col" "col" "col" "col" "col"; }
   .footer {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas: "contacto info1" "iconos iconos" "copyright copyright"; }
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "contacto" "info1" "iconos" "copyright"; }
+    .footer__contacto {
+      font-size: 46px;
+      justify-content: center; }
+    .footer__datos {
+      text-align: center; }
   .ubicacion {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, auto);
