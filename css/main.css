@@ -19,6 +19,8 @@
     background-color: #ebf0a7; }
   .body__footer {
     grid-area: footer; }
+  .body__h1 {
+    color: darkslategray; }
 
 .font--small {
   font-size: 15px; }

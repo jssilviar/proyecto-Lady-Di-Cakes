@@ -17,6 +17,9 @@
     &__footer{
         grid-area: footer;
     }
+    &__h1{
+        color: $fonts;
+    }
 }
 $fonts: (
     small: 15px,
