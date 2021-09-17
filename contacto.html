@@ -17,32 +17,32 @@
     <header class="sticky-top body__header header">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                     <img src="imagenes/logoCircular.png" alt="" class="d-inline-block align-text-top header__img header__logo"/>
+                <a class="navbar-brand name" href="index.html">
+                    <img src="imagenes/logoCircular.png" alt="logoLadydiCakes" class="d-inline-block align-text-top header__img header__logo"/>
                     Lady Di Cakes
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse"       id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link iconos" aria-current="page" href="catering.html">Catering</a>
+                        <li class="nav-item font--medium">
+                            <a class="nav-link name" aria-current="page" href="catering.html">Catering</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link iconos" href="cakes.html">Cakes</a>
+                        <li class="nav-item font--medium">
+                            <a class="nav-link name" href="cakes.html">Cakes</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link iconos" href="backingPallet.html">Backing Pallet</a>
+                        <li class="nav-item font--medium">
+                            <a class="nav-link name" href="backingPallet.html">Backing Pallet</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link header__sombra" aria-current="page" href="contacto.html">
+                        <li class="nav-item header__sombra">
+                            <a class="nav-link" aria-current="page" href="contacto.html">
                                 <img src="imagenes/iconoContacto.svg" class="header__img" alt="contacto" title="Contacto">
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="ubicacion.html">
-                                <img src="imagenes/iconoUbicacion.svg" alt="ubicacion" class="header__img" title="Ubícanos">
+                                <img src="imagenes/iconoUbicacion.svg" alt="ubicación" class="header__img" title="Ubícanos">
                             </a>
                         </li>
                         <li class="nav-item">
@@ -61,7 +61,7 @@
     </header>
     <main class="body__main">
         <div class="justify-content-md-center container">
-            <h1>Contáctanos:</h1>
+            <h1 class="name">Contáctanos:</h1>
             <form class="row g-3" action="envío.php" method="POST">
                 <div class="col-md-6">
                   <label for="inputEmail4" class="form-label">Nombres</label>
@@ -74,11 +74,11 @@
                 <div class="col-md-10">
                     <label for="inputCity" class="form-label" input type="text" name="" id="">Dirección</label>
                     <input type="text" class="form-control" id="inputCity">
-                  </div>
-                  <div class="col-md-2">
+                </div>
+                <div class="col-md-2">
                     <label for="inputState" class="form-label">Distrito</label>
                     <input type="text" class="form-control" id="inputCity">
-                  </div>
+                </div>
                 <div class="col-12">
                   <label for="inputAddress2" class="form-label">Referencia</label>
                   <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, casa, o piso">
@@ -108,7 +108,7 @@
                     </label>
                   </div>
                 </div>
-                <div class="datosAdicionales">
+                <div>
                     Quiero recibir ofertas por correo
                     <label for="">Sí</label>
                     <input type="radio" value="si" name="acepta">
@@ -128,7 +128,7 @@
         </div>
     </main>
     <footer class="body__footer footer">
-        <div class="footer__contacto">Contáctanos en:   
+        <div class="footer__contacto name">Contáctanos en:   
         </div>
         <div class="datos footer__datos font--large">
             <p>Diana Lisbeth Jesús Sánchez</p>

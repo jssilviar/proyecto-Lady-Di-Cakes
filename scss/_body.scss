@@ -4,6 +4,7 @@
 	grid-template-columns:repeat(3, 1fr);
 	grid-template-rows: auto auto auto;
 	grid-template-areas: "header header header" "main main main" "footer footer footer";
+    font-family: $fontMain;
     &__header{
         grid-area: header;
     }
@@ -12,13 +13,13 @@
         padding-left: 3%;
         padding-right: 3%;
         margin: 2%;
-        background-color: $bg-fondo;
     }
     &__footer{
         grid-area: footer;
     }
     &__h1{
         color: $fonts;
+        text-align: center;
     }
 }
 $fonts: (
@@ -171,6 +172,8 @@ $fonts: (
     .img{
         width: 100%;
         border-radius: 20px;
+        display: block;
+        height: auto;
     }
     .indexBacking{
         grid-area: img1;
@@ -190,8 +193,26 @@ $fonts: (
             display: block;
         }
     }
-    
-    
+    .img-overlay{
+        position: relative;
+        max-width: 300px;
+    }
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        background: $bg-hf;
+        width: 100%;
+        transition: .5s ease;
+        opacity:0;
+        color: $bg-info;
+        font-size: $textMedium;
+        padding: 30px;
+        text-align: center;
+    }
+    .img-overlay:hover .overlay {
+        opacity: 1;
+    }
+        
 /*hoja ubicacion*/
     .ubicacion{
         display: grid;
@@ -224,4 +245,7 @@ $fonts: (
 .video{
     margin-left: 15%;
 }
-
+.name{
+    font-size: big;
+    font-weight: bold;
+}
