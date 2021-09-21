@@ -178,7 +178,7 @@
 .overlay {
   position: absolute;
   bottom: 0;
-  background: #f5db5d;
+  background: rgba(245, 219, 93, 0.5);
   width: 100%;
   transition: .5s ease;
   opacity: 0;
@@ -215,8 +215,13 @@
       transform: rotatey(-360deg);
       transition: transform 2s; }
 
+.videoDad {
+  text-align: center;
+  height: 50vh; }
+
 .video {
-  margin-left: 15%; }
+  width: 40%;
+  height: 100%; }
 
 .name {
   font-size: big;
@@ -333,6 +338,10 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(7, auto);
     grid-template-areas: "img1" "img2" "img3" "img2x2" "nota1"  "nota2" "nota3"; }
+  .indexCakes {
+    margin-left: 40px; }
+  .img-overlay {
+    max-width: 230px; }
   .row {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, auto);

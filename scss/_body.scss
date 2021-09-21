@@ -200,7 +200,7 @@ $fonts: (
     .overlay {
         position: absolute;
         bottom: 0;
-        background: $bg-hf;
+        background: $overlay;
         width: 100%;
         transition: .5s ease;
         opacity:0;
@@ -242,8 +242,13 @@ $fonts: (
             }
         }
     }
+.videoDad{
+    text-align: center;
+    height: 50vh;
+}
 .video{
-    margin-left: 15%;
+    width: 40%;
+    height: 100%;
 }
 .name{
     font-size: big;
