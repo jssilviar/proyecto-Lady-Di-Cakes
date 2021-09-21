@@ -338,10 +338,6 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(7, auto);
     grid-template-areas: "img1" "img2" "img3" "img2x2" "nota1"  "nota2" "nota3"; }
-  .indexCakes {
-    margin-left: 40px; }
-  .img-overlay {
-    max-width: 230px; }
   .row {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, auto);
